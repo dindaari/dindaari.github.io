@@ -701,6 +701,11 @@ section {
   background: #e3e2fc;
 }
 
+.pill.backend {
+  background: #f5c7d7;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .skill-group {
@@ -1060,6 +1065,60 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/* ===============================
+PORTFOLIO PAGINATION
+================================ */
+.portfolio-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+/* semua tombol */
+.portfolio-pagination button {
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hover */
+.portfolio-pagination button:hover:not(:disabled) {
+  background: #0563bb;
+  color: #fff;
+  border-color: #0563bb;
+}
+
+/* active page */
+.portfolio-pagination button.active {
+  background: #0563bb;
+  color: #fff;
+  border-color: #0563bb;
+}
+
+/* disabled < > */
+.portfolio-pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
