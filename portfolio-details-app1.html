@@ -49,43 +49,34 @@
         </div>
 
         <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#portfolio">Project</a>
-            </li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#resume">Resume</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Project</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
       </div>
     </header>
     <!-- End Header -->
@@ -98,7 +89,7 @@
             <h2>Project Details</h2>
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li><a href="portfolio.html">Project</a></li>
+              <li><a href="index.html#portfolio">Project</a></li>
               <li>Project Details</li>
             </ol>
           </div>
@@ -114,45 +105,46 @@
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-1.png" alt="" />
+                    <img src="assets/img/portfolio/app1.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-4.png" alt="" />
+                    <img src="assets/img/portfolio/app1.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-1.png" alt="" />
+                    <img src="assets/img/portfolio/app1.png" alt="" />
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
             </div>
 
-            <div class="col-lg-4">
-              <div class="portfolio-info">
-                <h3>Project information</h3>
-                <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
-                  <li>
-                    <strong>Project URL</strong>:
-                    <a href="#">www.example.com</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-center">
+
               <div class="portfolio-description">
-                <h2>This is an example of portfolio detail</h2>
+                <h2>Campus EASE</h2>
                 <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                  itaque inventore commodi labore quia quia. Exercitationem
-                  repudiandae officiis neque suscipit non officia eaque itaque
-                  enim. Voluptatem officia accusantium nesciunt est omnis
-                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
-                  deserunt eius.
+                  CampusEase is an app designed to help users register for workshops and 
+                  competitions held on campus. Users can view and sign up for available 
+                  events directly through the app, as well as add information about new 
+                  workshops or competitions for others to access.
                 </p>
               </div>
+
+              <div class="portfolio-info">
+                <!-- <h3>Project information</h3> -->
+                <ul>
+                  <li><strong>Category</strong>: UI/UX Design</li>
+                  <!-- <li><strong>Client</strong>:  ITSNU Pkl</li> -->
+                  <li><strong>Project date</strong>: 2023</li>
+                  <!-- <li>
+                    <strong>Project URL</strong>:
+                    <a href="#">www.example.com</a>
+                  </li> -->
+                </ul>
+              </div>
+              
             </div>
           </div>
         </div>
