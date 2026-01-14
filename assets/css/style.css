@@ -317,6 +317,20 @@ h6 {
   display: block;
 }
 
+.btn-back {
+  font-size: 20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  color: #007bff;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/

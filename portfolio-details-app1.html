@@ -49,13 +49,23 @@
         </div>
 
         <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#resume">Resume</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Project</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.html#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.html#resume">Resume</a>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+            <li>
+              <a class="nav-link scrollto" href="index.html#portfolio"
+                >Project</a
+              >
+            </li>
+            <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -72,11 +82,13 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
+            <li>
+              <a class="nav-link scrollto" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
     </header>
     <!-- End Header -->
@@ -86,7 +98,13 @@
       <section class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>Project Details</h2>
+            <div class="d-flex align-items-center gap-2">
+              <a href="javascript:history.back()" class="btn-back">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              <h2 class="mb-0">Project Details</h2>
+            </div>
+
             <ol>
               <li><a href="index.html">Home</a></li>
               <li><a href="index.html#portfolio">Project</a></li>
@@ -104,6 +122,7 @@
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
+
                   <div class="swiper-slide">
                     <img src="assets/img/portfolio/app1.png" alt="" />
                   </div>
@@ -115,36 +134,34 @@
                   <div class="swiper-slide">
                     <img src="assets/img/detail/app1_2.png" alt="" />
                   </div>
+
+                  
+
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
             </div>
 
             <div class="col-lg-4 d-flex flex-column justify-content-center">
-
               <div class="portfolio-description">
                 <h2>Campus EASE</h2>
                 <p>
-                  CampusEase is an app designed to help users register for workshops and 
-                  competitions held on campus. Users can view and sign up for available 
-                  events directly through the app, as well as add information about new 
-                  workshops or competitions for others to access.
+                  CampusEase is an app designed to help users register for
+                  workshops and competitions held on campus. Users can view and
+                  sign up for available events directly through the app, as well
+                  as add information about new workshops or competitions for
+                  others to access.
                 </p>
               </div>
 
               <div class="portfolio-info">
                 <!-- <h3>Project information</h3> -->
                 <ul>
-                  <li><strong>Category</strong>: UI Design</li>
-                  <!-- <li><strong>Client</strong>:  ITSNU Pkl</li> -->
-                  <li><strong>Project date</strong>: 2023</li>
-                  <!-- <li>
-                    <strong>Project URL</strong>:
-                    <a href="#">www.example.com</a>
-                  </li> -->
+                  <li><strong>Project Date</strong>: 2023</li>
+                  <li><strong>Role</strong>: UI Design</li>
+                  <li><strong>Tech Stack</strong>: Figma</li>
                 </ul>
               </div>
-              
             </div>
           </div>
         </div>

@@ -41,11 +41,19 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#resume">Resume</a></li>
+                    <li>
+                        <a class="nav-link scrollto active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="index.html#resume">Resume</a>
+                    </li>
                     <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
-                    <li><a class="nav-link scrollto" href="index.html#portfolio">Project</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="index.html#portfolio">Project</a>
+                    </li>
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -63,7 +71,9 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="index.html#contact">Contact</a>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -77,7 +87,13 @@
         <section class="breadcrumbs">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Project Details</h2>
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="javascript:history.back()" class="btn-back">
+                            <i class="bi bi-arrow-left"></i>
+                        </a>
+                        <h2 class="mb-0">Project Details</h2>
+                    </div>
+
                     <ol>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="index.html#portfolio">Project</a></li>
@@ -95,30 +111,36 @@
                     <div class="col-lg-8">
                         <div class="portfolio-details-slider swiper">
                             <div class="swiper-wrapper align-items-center">
-                                <div class="swiper-slide">
-                                    <img src="assets/img/portfolio/app3.png" alt="" />
-                                </div>
 
                                 <div class="swiper-slide">
                                     <img src="assets/img/portfolio/app3.png" alt="" />
                                 </div>
+                                
+                                <div class="swiper-slide">
+                                    <img src="assets/img/detail/app3_1.png" alt="" />
+                                </div>
 
                                 <div class="swiper-slide">
-                                    <img src="assets/img/portfolio/app3.png" alt="" />
+                                    <img src="assets/img/detail/app3_2.png" alt="" />
                                 </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/detail/app3_3.png" alt="" />
+                                </div>
+
+                                
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 d-flex flex-column justify-content-center">
-
                         <div class="portfolio-description">
                             <h2>Motion Martial</h2>
                             <p>
-                                MotionMartial is an application that utilizes computer vision 
-                                technology to detect and analyze basic karate movements. 
-                                Through the device's camera, this app provides real-time 
+                                MotionMartial is an application that utilizes computer vision
+                                technology to detect and analyze basic karate movements.
+                                Through the device's camera, this app provides real-time
                                 feedback on the accuracy of the user's movements
                             </p>
                         </div>
@@ -126,15 +148,14 @@
                         <div class="portfolio-info">
                             <!-- <h3>Project information</h3> -->
                             <ul>
+                                <li><strong>Project Date</strong>: 2024</li>
                                 <li><strong>Category</strong>: Mobile Developer</li>
-                                <li><strong>Project date</strong>: 2024</li>
-                                <!-- <li>
-                                    <strong>Project URL</strong>:
-                                    <a href="#">www.example.com</a>
-                                </li> -->
+                                <li>
+                                    <strong>Tech Stack</strong>: Figma, Flutter, Flask,
+                                    Streamlit
+                                </li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
