@@ -743,7 +743,8 @@ section {
 
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* lebih rapet */
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  /* lebih rapet */
   gap: 14px;
   align-items: center;
 }
@@ -758,7 +759,7 @@ section {
 .logo-grid img:hover {
   opacity: 1;
   transform: scale(1.1);
-  filter: drop-shadow(0 0 10px rgba(124,124,255,.45));
+  filter: drop-shadow(0 0 10px rgba(124, 124, 255, .45));
 }
 
 
@@ -838,14 +839,18 @@ ESPORTS SECTION (COMPACT + SLIDER)
 }
 
 .esports-title h2 {
-  color: #ffffff;        /* PUTIH */
-  text-shadow: none;     /* MATIKAN NEON */
+  color: #ffffff;
+  /* PUTIH */
+  text-shadow: none;
+  /* MATIKAN NEON */
   font-weight: 600;
 }
 
 .esports-title p {
-  color: #cfd2ff;        /* abu kebiruan halus */
-  text-shadow: none;     /* MATIKAN NEON */
+  color: #cfd2ff;
+  /* abu kebiruan halus */
+  text-shadow: none;
+  /* MATIKAN NEON */
 }
 
 /* =========================
@@ -860,7 +865,8 @@ SLIDER WRAPPER
 /* ===== SLIDER ===== */
 .esports-slider {
   display: flex;
-  gap: 16px; /* RAPET */
+  gap: 16px;
+  /* RAPET */
   transition: transform .45s ease;
 }
 
@@ -869,14 +875,15 @@ CARD (IMAGE BACKGROUND)
 ========================= */
 .es-card {
   min-width: calc(100% / 3);
-  height: 250px; /* COMPACT */
+  height: 250px;
+  /* COMPACT */
   border-radius: 14px;
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
   transition: all .35s ease;
-  box-shadow: 0 10px 28px rgba(0,0,0,.45);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .45);
 }
 
 /* OVERLAY GELAP */
@@ -884,12 +891,10 @@ CARD (IMAGE BACKGROUND)
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(5,8,20,.92),
-    rgba(5,8,20,.55),
-    rgba(5,8,20,.15)
-  );
+  background: linear-gradient(to top,
+      rgba(5, 8, 20, .92),
+      rgba(5, 8, 20, .55),
+      rgba(5, 8, 20, .15));
 }
 
 /* ===== CONTENT ===== */
@@ -924,7 +929,7 @@ CARD (IMAGE BACKGROUND)
 /* ===== HOVER ===== */
 .es-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 0 22px rgba(124,124,255,.45);
+  box-shadow: 0 0 22px rgba(124, 124, 255, .45);
 }
 
 /* =========================
@@ -934,7 +939,7 @@ SLIDER BUTTON
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(124,124,255,.18);
+  background: rgba(124, 124, 255, .18);
   border: none;
   color: #fff;
   font-size: 20px;
@@ -948,11 +953,16 @@ SLIDER BUTTON
 }
 
 .es-btn:hover {
-  background: rgba(124,124,255,.45);
+  background: rgba(124, 124, 255, .45);
 }
 
-.es-btn.prev { left: 8px; }
-.es-btn.next { right: 8px; }
+.es-btn.prev {
+  left: 8px;
+}
+
+.es-btn.next {
+  right: 8px;
+}
 
 /* =========================
 FOOT NOTE
@@ -1143,10 +1153,7 @@ RESPONSIVE
   border: 1px solid #d43076;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #d43076;
 }
 
@@ -1487,6 +1494,41 @@ PORTFOLIO PAGINATION
     transform: rotate(360deg);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Inner Page
+--------------------------------------------------------------*/
+.highlight {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+.fun-note {
+  font-style: italic;
+  color: #555;
+}
+
+.btn-back:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+ul li i {
+  color: #d43076;
+  margin-right: 8px;
+}
+
+blockquote {
+  background-color: #f8f9fa;
+  border-left: 4px solid #d43076;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border-radius: 4px;
+  font-style: italic;
+  color: #333;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
