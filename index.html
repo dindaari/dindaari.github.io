@@ -31,48 +31,6 @@
   <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Extra Animation -->
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-
-    .portfolio-wrap {
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-    }
-
-    .portfolio-wrap:hover {
-      transform: translateY(-10px) scale(1.02);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-    }
-
-    .php-email-form button {
-      transition: all 0.3s ease;
-    }
-
-    .php-email-form button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    @keyframes float {
-      0% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(-8px);
-      }
-
-      100% {
-        transform: translateY(0);
-      }
-    }
-
-    #hero i {
-      animation: float 2.5s ease-in-out infinite;
-    }
-  </style>
 </head>
 
 <body>
@@ -81,7 +39,7 @@
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
     <h1 data-aos="fade-up">Hi, I'm Dindari</h1>
     <h2 data-aos="fade-up" data-aos-delay="200">
-      Designer • Software Developer • Gamer
+      Designer • Software Developer • Gamers
     </h2>
 
     <a href="#about" class="btn-get-started scrollto" data-aos="zoom-in" data-aos-delay="400">
@@ -178,6 +136,234 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Senior High School - Science Major (IPA)</h4>
+              <h5>2018 - 2021</h5>
+              <p><em>SMA Negeri 4 Tegal</em></p>
+              <p>
+                Studied science fundamentals with an early interest in technology and logical problem-solving.
+              </p>
+            </div>
+
+            <div class="resume-item pb-0">
+              <h4>Diploma4 in Informatics Engineering (S.Tr.Kom)</h4>
+              <h5>2021 - 2025</h5>
+              <p><em>Universitas Harkat Negeri</em></p>
+              <p>
+                Focused on mobile application development, UI/UX design, and web-based systems.
+                Actively involved in academic and project-based learning related to software development.
+              </p>
+            </div>
+
+            <h3 class="resume-title">Organization</h3>
+            <div class="resume-item pb-0">
+              <h4>FoRTI - Public Relations & Creative Division</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>Universitas Harkat Negeri</em></p>
+              <ul>
+                <li>Managed the organization's social media by creating visual and written content to communicate
+                  announcements and activities effectively.</li>
+                <li>Assisted in planning and executing organizational events and campaigns.</li>
+                <li>Coordinated with internal teams to ensure consistent branding and effective communication
+                  strategies.</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Social Media Designer</h4>
+              <h5>May - Sept 2022</h5>
+              <p><em>Caplin Pakes, Online Shop</em></p>
+              <p>
+              <ul>
+                <li>Designed promotional posters and visual materials for in-game diamond trading.</li>
+                <li>Utilized tools such as Canva, Adobe Photoshop, or Illustrator (adjust based on what you actually
+                  used).</li>
+                <li>Created visually engaging content tailored to gaming audiences and market trends.</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Mobile Developer Intern</h4>
+              <h5>August - Dec 2024</h5>
+              <p><em>Technophoria Indonesia, Yogyakarta</em></p>
+              <p>
+              <ul>
+                <li>Assisted in developing mobile applications using Flutter.</li>
+                <li>Contributed to UI development, API integration, and debugging processes.</li>
+                <li>Collaborated with the development team to meet client requirements and deliver functional app
+                  features.</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item pb-0">
+              <h4>Socmed Design & Roblox Game Developer</h4>
+              <h5>Nov 2025 - Now</h5>
+              <p><em>Freelance</em></p>
+              <p>
+              <ul>
+                <li>Created graphic design materials such as posters and promotional visuals for different purposes.
+                </li>
+                <li>Developed custom Roblox game maps and gameplay systems using Lua.</li>
+                <li>Designed and implemented UI elements and interactive game mechanics.</li>
+                <li>Managed client-server logic and debugging within Roblox Studio.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- certification -->
+    <section id="certifications" class="certifications">
+      <div class="container">
+
+        <div class="esports-title text-center">
+          <h2>Certifications</h2>
+          <p>Selected professional learning & credentials</p>
+        </div>
+
+        <!-- IMAGE ZOOM MODAL -->
+        <div class="cert-modal" id="certModal">
+          <span class="cert-close">&times;</span>
+          <img class="cert-modal-img" id="certModalImg" />
+        </div>
+
+
+        <div class="cert-slider-wrapper">
+
+          <!-- BUTTON -->
+          <button class="cert-btn prev">&#10094;</button>
+
+          <!-- SLIDER -->
+          <div class="cert-slider">
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/hskpeking.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2026</span>
+                <h4>Chinese for HSK 1</h4>
+                <p>Peking University - Coursera</p>
+                <!-- <a href="https://www.coursera.org/account/accomplishments/verify/P5Y4CKMQI3V8">View Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/Ditekindo.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2025</span>
+                <h4>Web Developer</h4>
+                <p>DitekIndo - Cirebon</p>
+                <!-- <a href="#">View Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/ibm.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2025</span>
+                <h4>AI Engineering</h4>
+                <p>IBM - Coursera</p>
+                <!-- <a href="#">View Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/uxgoogle.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2025</span>
+                <h4>UX Design</h4>
+                <p>Google - Coursera</p>
+                <!-- <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/M64QIVODNSBE">View
+                  Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/uiuxcarl.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2025</span>
+                <h4>UI / UX Design</h4>
+                <p>California Institute of the Arts</p>
+                <!-- <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PFVC72GEMN42">View
+                  Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/bdmyskill24.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2024</span>
+                <h4>Brand Identity Design</h4>
+                <p>Lion - My Skills</p>
+                <!-- <a href="#">View Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/hrmyskill24.jpg')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2024</span>
+                <h4>Understanding HR Frameworks</h4>
+                <p>Deloitte - MySkills</p>
+                <!-- <a href="#">View Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/Huawei-Datacom23.png')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2023</span>
+                <h4>HCIA (Huawei Certified ICT Associate)</h4>
+                <p>Huawei - Datacom</p>
+                <!-- <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/M64QIVODNSBE">View
+                  Credential</a> -->
+              </div>
+            </div>
+
+            <div class="cert-card bg-cert" style="background-image:url('assets/img/cert/bisaAi22.png')">
+              <div class="cert-overlay"></div>
+              <div class="cert-content">
+                <span>2022</span>
+                <h4>Mathematics for Computing</h4>
+                <p>BisaAi Academy</p>
+                <!-- <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PFVC72GEMN42">View
+                  Credential</a> -->
+              </div>
+            </div>
+
+          </div>
+
+          <!-- BUTTON -->
+          <button class="cert-btn next">&#10095;</button>
+
+        </div>
+
+      </div>
+    </section>
+
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container">
@@ -191,7 +377,7 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">100%</i></span>
+              <span class="skill">CSS <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -207,7 +393,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Java <i class="val">55%</i></span>
+              <span class="skill">Java <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -235,7 +421,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">LUA <i class="val">80%</i></span>
+              <span class="skill">LUA <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -327,106 +513,6 @@
         </div>
       </div>
     </section> -->
-
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-
-          <h2>Resume</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p> -->
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Senior High School - Natural Science (IPA)</h4>
-              <h5>2018 - 2021</h5>
-              <p><em>SMA Negeri 4 Tegal</em></p>
-              <p>
-                Studied science fundamentals with an early interest in technology and logical problem-solving.
-              </p>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>Sarjana Terapan Teknik Informatika (S.Tr.Kom)</h4>
-              <h5>2021 - 2025</h5>
-              <p><em>Universitas Harkat Negeri</em></p>
-              <p>
-                Focused on mobile application development, UI/UX design, and web-based systems.
-                Actively involved in academic and project-based learning related to software development.
-              </p>
-            </div>
-
-            <h3 class="resume-title">Organization</h3>
-            <div class="resume-item pb-0">
-              <h4>FoRTI - Public Relations & Creative Division</h4>
-              <h5>2021 - 2023</h5>
-              <p><em>Universitas Harkat Negeri</em></p>
-              <ul>
-                <li>Managed the organization's social media by creating visual and written content to communicate
-                  announcements and activities effectively.</li>
-                <li>Assisted in planning and executing organizational events and campaigns.</li>
-                <li>Coordinated with internal teams to ensure consistent branding and effective communication
-                  strategies.</li>
-              </ul>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left">
-
-            <h3 class="resume-title">Experience</h3>
-            <div class="resume-item">
-              <h4>Social Media Designer</h4>
-              <h5>May - Sept 2022</h5>
-              <p><em>Caplin Pakes, Online Shop</em></p>
-              <p>
-              <ul>
-                <li>Designed promotional posters and visual materials for in-game diamond trading.</li>
-                <li>Utilized tools such as Canva, Adobe Photoshop, or Illustrator (adjust based on what you actually
-                  used).</li>
-                <li>Created visually engaging content tailored to gaming audiences and market trends.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="resume-item">
-              <h4>Mobile Developer Intern</h4>
-              <h5>August - Dec 2024</h5>
-              <p><em>Technophoria Indonesia, Yogyakarta</em></p>
-              <p>
-              <ul>
-                <li>Assisted in developing mobile applications using Flutter.</li>
-                <li>Contributed to UI development, API integration, and debugging processes.</li>
-                <li>Collaborated with the development team to meet client requirements and deliver functional app
-                  features.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="resume-item pb-0">
-              <h4>Graphic Design & Roblox Game Developer</h4>
-              <h5>Nov 2025 - Now</h5>
-              <p><em>Freelance</em></p>
-              <p>
-              <ul>
-                <li>Created graphic design materials such as posters and promotional visuals for different purposes.</li>
-                <li>Developed custom Roblox game maps and gameplay systems using Lua.</li>
-                <li>Designed and implemented UI elements and interactive game mechanics.</li>
-                <li>Managed client-server logic and debugging within Roblox Studio.</li>
-              </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
 
     <section class="esports-section">
       <div class="container">
@@ -563,6 +649,7 @@
       </div>
     </section>
 
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
@@ -578,7 +665,9 @@
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-web">Web</li>
               <li data-filter=".filter-card">Design</li>
+              <li data-filter=".filter-roblox">Roblox Game</li>
             </ul>
+
           </div>
         </div>
 
@@ -595,7 +684,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/app1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details-app1.html" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <a href="./portfolio-details-app1.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -610,7 +700,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/web1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details-web1.html" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <a href="./portfolio-details-web1.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -625,7 +716,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/app2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details-app2.html" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <a href="./portfolio-details-app2.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -635,13 +727,29 @@
               <img src="assets/img/portfolio/sd.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>CaplinPakes</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app5.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Simparta Pekalongan</h4>
+                <p>Mobile Developer</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/app5.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
+                    class="bi bi-arrows-angle-expand"></i></a>
+                <a href="./portfolio-details-app5.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -654,9 +762,10 @@
                 <p>Mobile Developer</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/20.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
+                <a href="assets/img/portfolio/app4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details-app4.html" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <a href="./portfolio-details-app4.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -669,9 +778,10 @@
                 <p>Mobile Developer</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/19.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
+                <a href="assets/img/portfolio/app3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details-app3.html" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <a href="./portfolio-details-app3.html" title="More Details"><i
+                    class="bi bi-box-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -681,13 +791,13 @@
               <img src="assets/img/portfolio/sd4.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Campus Community</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
               </div>
             </div>
           </div>
@@ -697,13 +807,13 @@
               <img src="assets/img/portfolio/sd5.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Banner</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd5.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
               </div>
             </div>
           </div>
@@ -713,13 +823,13 @@
               <img src="assets/img/portfolio/sd1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Poster</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
               </div>
             </div>
           </div>
@@ -729,13 +839,13 @@
               <img src="assets/img/portfolio/sd3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Poster</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
               </div>
             </div>
           </div>
@@ -745,16 +855,53 @@
               <img src="assets/img/portfolio/sd2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Poster</h4>
-                <p>Freelance</p>
+                <p>Socmed Design</p>
               </div>
               <br>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/sd2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
                     class="bi bi-arrows-angle-expand"></i></a>
-                <a href="./portfolio-details.htmll" title="More Details"><i class="bi bi-arrow-down-square"></i></a>
+                <!-- <a href="#" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a> -->
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-roblox">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rbx1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mount Hilang</h4>
+                <p>Scripting</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rbx1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <i class="bi bi-arrows-angle-expand"></i>
+                </a>
+                <a href="./portfolio-details-rbx1.html" title="More Details">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-roblox">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rbx2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mount Norikura</h4>
+                <p>Scripting</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rbx2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <i class="bi bi-arrows-angle-expand"></i>
+                </a>
+                <a href="./portfolio-details-rbx2.html" title="More Details">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
 
         </div>
 
@@ -781,7 +928,7 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-4" data-aos="fade-right">
+          <div class="col-lg-4 col-md-4">
 
             <div class="contact-about">
               <div class="social-links">
@@ -795,7 +942,7 @@
             <div class="info mt-4">
               <div class="d-flex align-items-center">
                 <i class="bi bi-geo-alt"></i>
-                <p>Kota Tegal<br>Jawa Tengah, Indonesia</p>
+                <p>Tegal City<br>Central Java, Indonesia</p>
               </div>
 
               <div class="d-flex align-items-center mt-4">
@@ -810,7 +957,7 @@
             </div>
           </div>
 
-          <div class="col-lg-8 col-md-8" data-aos="fade-left">
+          <div class="col-lg-8 col-md-8">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
@@ -903,7 +1050,7 @@
       });
 
       /* ================================
-         FILTER LOGIC
+        FILTER LOGIC
       ================================ */
       function getFilteredItems() {
         if (currentFilter === "*") return items;
@@ -995,6 +1142,43 @@
       };
 
       window.addEventListener("resize", updateSlider);
+    });
+  </script>
+
+  <script>
+    const certSlider = document.querySelector('.cert-slider');
+    const certPrev = document.querySelector('.cert-btn.prev');
+    const certNext = document.querySelector('.cert-btn.next');
+
+    certPrev.addEventListener('click', () => {
+      certSlider.scrollLeft -= 320;
+    });
+
+    certNext.addEventListener('click', () => {
+      certSlider.scrollLeft += 320;
+    });
+  </script>
+
+  <script>
+    const modal = document.getElementById("certModal");
+    const modalImg = document.getElementById("certModalImg");
+    const closeBtn = document.querySelector(".cert-close");
+
+    document.querySelectorAll(".cert-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const bg = card.style.backgroundImage;
+        const imgUrl = bg.slice(5, -2); // remove url(" ")
+        modalImg.src = imgUrl;
+        modal.style.display = "flex";
+      });
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    modal.addEventListener("click", e => {
+      if (e.target === modal) modal.style.display = "none";
     });
   </script>
 
