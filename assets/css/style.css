@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 /* ===============================
-   Global
+Global
 ================================ */
 html {
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ body {
 }
 
 /* ===============================
-   Typography
+Typography
 ================================ */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
@@ -1176,6 +1176,38 @@ ESPORTS SECTION (COMPACT + SLIDER)
   padding: 45px 0;
   color: #e5e7ff;
 }
+.img-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.img-modal img {
+  max-width: 85%;
+  max-height: 80vh;
+  border-radius: 14px;
+  animation: zoomIn .3s ease;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.es-close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
 
 /* ===== TITLE ===== */
 .esports-title {
